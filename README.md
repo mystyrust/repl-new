@@ -1,5 +1,5 @@
 # About 
-* js server hosted on [https://replit.com/](https://replit.com/), base url [progress-tracker.mystyrust.repl.co](progress-tracker.mystyrust.repl.co)
+* js server hosted on [https://replit.com/](https://replit.com/), base url [https://progress-tracker-mystyrust.replit.app/](https://progress-tracker-mystyrust.replit.app/)
 * somewhat a companion repo to [Quaranteens](https://github.com/mystyrust/quaranteen/tree/master/Quaranteens) ("fileExplorer" is hosted here, and some CYOA logic is handled here)
 
 # Tools
