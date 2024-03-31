@@ -1,0 +1,77 @@
+<svg version="1.1"
+     width="100%" height="100%"
+     xmlns="http://www.w3.org/2000/svg">
+  <style>
+@keyframes words {
+  0% {content: "I";}
+  17% {content: "I ";}
+  34% {content: "I a";}
+  50% {content: "I am";}
+  67% {content: "I am ";}
+  84% {content: "I am a";}
+  100% {content: "I am a ";}
+}
+@keyframes changeLetter {
+  0% {content: "";}
+  5% {content: "C";}
+  10% {content: "CS";}
+  15% {content: "CSS";}
+  20% {content: "CSS ";}
+  25% {content: "CSS f";}
+  30% {content: "CSS fa";}
+  35% {content: "CSS fan";}
+  40% {content: "CSS fan.";}
+  54% {content: "CSS fan.";}      
+  55% {content: "CSS fan";}
+  56% {content: "CSS fa";}
+  57% {content: "CSS f";}
+  58% {content: "CSS f";}
+  59% {content: "CSS ";}
+  60% {content: "CSS";}
+  61% {content: "CS";}
+  62% {content: "C";}
+  62% {content: "";}
+  75% {content: "n";}
+  80% {content: "ne";}
+  85% {content: "ner";}
+  90% {content: "nerd";}
+  95% {content: "nerd.";}
+  100% {content: "nerd.";}
+}
+    
+@keyframes cursor {
+    to { visibility: hidden; }
+}
+@-webkit-keyframes cursor {
+   to { visibility: hidden; }
+}
+    
+.words::before {
+  animation: words 1s linear 0s 1 normal forwards;
+  content: "";
+}
+.letter-changer::before {
+  animation: changeLetter 3s linear 1s infinite normal forwards;
+  content: "";
+}
+.letter-changer::after {
+    content: "​";
+    position: relative;
+    display: inline-block;
+    padding-right: 2px;
+    border-right: 2px solid currentColor;
+    white-space: nowrap;
+    animation: cursor 0.5s steps(5, start) infinite;
+  
+}
+.accessibility {
+  width: 0; 
+  display: inline-block; 
+  overflow: hidden; 
+  white-space:nowrap;
+}
+</style>
+  <foreignObject xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+<span xmlns="http://www.w3.org/1999/xhtml" class="words"></span><span xmlns="http://www.w3.org/1999/xhtml" class="letter-changer"></span><span xmlns="http://www.w3.org/1999/xhtml" class="accessibility">I am a <s>CSS fan.</s>nerd.</span>
+  </foreignObject>
+</svg>
