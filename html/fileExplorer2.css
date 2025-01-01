@@ -356,62 +356,62 @@
 
 /* icons */
 .download-all:before {
-    content: url(https://img.icons8.com/color/18/000000/download--v1.png);
+    content: url(https://i.imgur.com/uRXULvJ.png);
     margin-right: 7px;
     margin-top: -0.1em;
     /* display: inline-flex; */
 }
 
 .folder-img:before {
-    content: url(https://img.icons8.com/color/18/000000/folder-invoices--v1.png);
+    content: url(https://i.imgur.com/dS1Myq4.png);
     margin-right: 7px;
     margin-top: -0.1em;
 }
 
 .excel-img:before {
-    content: url(https://img.icons8.com/color/18/000000/new-spreadsheet.png);
+    content: url(https://i.imgur.com/JiLTLiB.png);
     margin-right: 7px;
     margin-top: -0.1em;
 }
 
 .word-img:before{
-    content: url(https://img.icons8.com/color/18/000000/word.png);
+    content: url(https://i.imgur.com/H0FZTDy.png);
     margin-right: 7px;
     margin-top: -0.1em;
 }
 
 .png-img:before {
-    content: url(https://img.icons8.com/color/18/000000/image.png);
+    content: url(https://i.imgur.com/yOqmlmj.png);
     margin-right: 7px;
     margin-top: -0.1em;
 }
 
 .txt-img:before {
-    content: url(https://img.icons8.com/color/48/000000/txt.png);
+    content: url(https://i.imgur.com/EhouwCF.png);
     margin-right: 7px;
     margin-top: -0.1em;
 }
 
 .trash-img:before {
-    content: url(https://img.icons8.com/color/18/000000/trash--v1.png);
+    content: url(https://i.imgur.com/o5kcTId.png);
     margin-right: 7px;
     margin-top: -0.1em;
 }
 
 .video-img:before {
-    content: url(https://img.icons8.com/color/18/000000/video.png);
+    content: url(https://i.imgur.com/KJU7qOF.png);
     margin-right: 7px;
     margin-top: -0.1em;
 }
 
 .pdf-img:before {
-    content: url(https://img.icons8.com/color/18/000000/pdf.png);
+    content: url(https://i.imgur.com/QwXHlqc.png);
     margin-right: 7px;
     margin-top: -0.1em;
 }
 
 .file-tree-img:before {
-    content: url(https://img.icons8.com/color/18/000000/folder-tree.png);
+    content: url(https://i.imgur.com/LoTWM68.png);
     margin-right: 7px;
     margin-top: -0.1em;
 }

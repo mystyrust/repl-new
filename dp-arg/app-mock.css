@@ -828,7 +828,7 @@
 
   .header-chevron {
     float: left;
-    content: url(https://img.icons8.com/ios-glyphs/20/000000/chevron-left.png);
+    content: url(https://i.imgur.com/dLjFQKq.png);
     cursor: pointer;
     pointer-events:auto;
   }
@@ -966,7 +966,7 @@
     }
 
     .missed.phone-log:before {
-        content: url(https://img.icons8.com/ios-filled/15/000000/missed-call.png);
+        content: url(https://i.imgur.com/ITziO1A.png);
         vertical-align: middle;
         position: absolute;
         margin-top: 3px;
@@ -992,7 +992,7 @@
 
     .phone-time:after {
       /* content: ""; */
-      content: url(https://img.icons8.com/ios/13/000000/info--v1.png);
+      content: url(https://i.imgur.com/w7CEFJq.png);
       margin-left: 3px;
       vertical-align: middle;
     }
@@ -1061,7 +1061,7 @@
   }
 
   .contact-time:after {
-    content: url(https://img.icons8.com/ios-glyphs/14/000000/chevron-right.png);
+    content: url(https://i.imgur.com/sW7dP64.png);
     float: right;
     margin-top: 2px;
     margin-right: -8px;
